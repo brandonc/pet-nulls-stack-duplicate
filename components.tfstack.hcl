@@ -1,7 +1,7 @@
 # Copyright (c) HashiCorp, Inc.
 # SPDX-License-Identifier: MPL-2.0
 
-variable "prefix" {
+variable "deployment" {
   type = string
 }
 
@@ -28,7 +28,7 @@ component "pet" {
   source = "./pet"
 
   inputs = {
-    prefix = var.prefix
+    prefix = var.deployment
   }
 
   providers = {

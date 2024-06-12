@@ -3,14 +3,14 @@
 
 deployment "simple" {
   variables = {
-    prefix           = "simple"
+    deployment           = "staging"
     instances        = 1
   }
 }
 
 deployment "complex" {
   variables = {
-    prefix           = "complex"
+    deployment           = "production"
     instances        = 3
   }
 }
