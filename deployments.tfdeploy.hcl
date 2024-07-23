@@ -8,9 +8,9 @@ deployment "staging" {
   }
 }
 
-deployment "production" {
-  variables = {
-    name           = "production"
-    instances      = 3
-  }
-}
+# deployment "production" {
+#   variables = {
+#     name           = "production"
+#     instances      = 3
+#   }
+# }
