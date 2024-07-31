@@ -3,14 +3,14 @@
 
 deployment "staging" {
   inputs = {
-    name           = "staging"
-    instances      = 1
+    name      = "staging"
+    instances = 1
   }
 }
 
-# deployment "production" {
-#   variables = {
-#     name           = "production"
-#     instances      = 3
-#   }
-# }
+deployment "production" {
+  inputs = {
+    name      = "production"
+    instances = 3
+  }
+}
