@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: MPL-2.0
 
 deployment "staging" {
-  variables = {
+  inputs = {
     name           = "staging"
     instances      = 1
   }
